@@ -1,0 +1,93 @@
+.container1 {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.navnav {
+  background-color: #00000060 !important;
+}
+
+h1 {
+  text-align: center; 
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+
+#loginForm {
+  width: 400px;
+  border: 2px solid #bebdbd93;
+  padding: 60px;
+  border-radius: 5px;
+  background-color: #00000060;
+}
+
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #fff;
+}
+
+.loginbtn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 5px !important;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: white;
+}
+
+
+#registerForm,
+#welcomePage {
+  display: none;
+}
+
+#welcomeMessage {
+  font-size: 10vh;
+}
+
+#error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(./assets/446492.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+main {
+  flex: 1 0 auto;
+
+}
+
+.footer {
+  background-color: #00000060 !important;
+
+}
